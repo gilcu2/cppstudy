@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(cppstudy)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(untitled2 main.cpp )
+add_executable(set_example set_example.cpp)
+add_executable(sort_example sort_example.cpp)
