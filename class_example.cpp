@@ -7,7 +7,7 @@
 
 class Student {
 private:
-    vector<int> scores=vector<int>(5);
+    std::vector<int> scores=std::vector<int>(5);
 
 public:
     void input();
@@ -26,7 +26,7 @@ void Student::input() {
 
 int Student::calculateTotalScore() {
     int sum=0;
-    for(value:scores)
+    for(auto value:scores)
         sum+=value;
     return sum;
 }
